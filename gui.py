@@ -6,3 +6,7 @@ class GUI:
         self.fenster.configure(background = "black")
         self.fenster.attributes("-fullscreen", True)
         self.fenster.mainloop()
+        self.main = tk.Frame()
+
+    def set_time(self,hour,minute):
+            return
